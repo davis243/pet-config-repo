@@ -9,4 +9,4 @@ zuul:
     routes:
       cat-service: # Service to create as sample
         path: /cat/** #path that will be intercepted
-        serviceId: cat
+        serviceId: cat-service
