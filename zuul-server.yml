@@ -10,3 +10,8 @@ zuul:
       cat-service: # Service to create as sample
         path: /cat/** #path that will be intercepted
         serviceId: cat-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+      
