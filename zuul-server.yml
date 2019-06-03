@@ -9,7 +9,7 @@ zuul:
     routes:
       cat-service: # Service to create as sample
         path: /cat/** #path that will be intercepted
-        serviceId: cat-service
+        serviceId: CAT-SERVICE
 eureka:
   client:
     serviceUrl:
